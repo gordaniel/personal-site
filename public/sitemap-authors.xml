@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//danielgordon.me/sitemap.xsl"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"><url><loc>http://danielgordon.me/author/daniel/</loc><lastmod>2026-01-26T05:30:24.000Z</lastmod></url></urlset>
+=======
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//localhost:2368/sitemap.xsl"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"><url><loc>https://danielgordon.me/author/daniel/</loc><lastmod>2025-12-25T20:35:33.059Z</lastmod></url></urlset>
+>>>>>>> parent of 64103ff (Added gamepi image)
