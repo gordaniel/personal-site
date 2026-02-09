@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title>Corn Jam Ice Cream</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link as="style" href="/assets/built/screen.css?v=bb3163ef1a" rel="preload"/>
+<link as="script" href="/assets/built/source.js?v=bb3163ef1a" rel="preload"/>
+<link as="font" crossorigin="anonymous" href="/assets/fonts/inter-roman.woff2?v=bb3163ef1a" rel="preload" type="font/woff2"/>
+<style>
+    @font-face {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 100 900;
+        font-display: optional;
+        src: url(/assets/fonts/inter-roman.woff2?v=bb3163ef1a) format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+</style>
+<link href="/assets/built/screen.css?v=bb3163ef1a" rel="stylesheet" type="text/css"/>
+<style>
+        :root {
+            --background-color: #ffffff
+        }
+    </style>
+<script>
+        /* The script for calculating the color contrast has been taken from
+        https://gomakethings.com/dynamically-changing-the-text-color-based-on-background-color-contrast-with-vanilla-js/ */
+        var accentColor = getComputedStyle(document.documentElement).getPropertyValue('--background-color');
+        accentColor = accentColor.trim().slice(1);
+
+        if (accentColor.length === 3) {
+            accentColor = accentColor[0] + accentColor[0] + accentColor[1] + accentColor[1] + accentColor[2] + accentColor[2];
+        }
+
+        var r = parseInt(accentColor.substr(0, 2), 16);
+        var g = parseInt(accentColor.substr(2, 2), 16);
+        var b = parseInt(accentColor.substr(4, 2), 16);
+        var yiq = ((r * 299) + (g * 587) + (b * 114)) / 1000;
+        var textColor = (yiq >= 128) ? 'dark' : 'light';
+
+        document.documentElement.className = `has-${textColor}-text`;
+    </script>
+<link href="https://danielgordon.me/content/images/size/w256h256/2025/12/Yosemite_Sam.svg.png" rel="icon" type="image/png"/>
+<link href="https://danielgordon.me/corn-jam-ice-cream/" rel="canonical"/>
+<meta content="no-referrer-when-downgrade" name="referrer"/>
+<meta content="Daniel Gordon" property="og:site_name"/>
+<meta content="article" property="og:type"/>
+<meta content="Corn Jam Ice Cream" property="og:title"/>
+<meta content="This is by far my favorite ice cream I've ever made. When I was invited to a corn themed party (crazy) by my girlfriend, the decision was made for me that I was gonna recreate the sweet corn raspberry jam from this creamery in Cambridge.
+
+@honeycombcreamery
+
+1. I am not" property="og:description"/>
+<meta content="https://danielgordon.me/corn-jam-ice-cream/" property="og:url"/>
+<meta content="2026-02-09T06:11:44.000Z" property="article:published_time"/>
+<meta content="2026-02-09T06:12:19.000Z" property="article:modified_time"/>
+<meta content="summary" name="twitter:card"/>
+<meta content="Corn Jam Ice Cream" name="twitter:title"/>
+<meta content="This is by far my favorite ice cream I've ever made. When I was invited to a corn themed party (crazy) by my girlfriend, the decision was made for me that I was gonna recreate the sweet corn raspberry jam from this creamery in Cambridge.
+
+@honeycombcreamery
+
+1. I am not" name="twitter:description"/>
+<meta content="https://danielgordon.me/corn-jam-ice-cream/" name="twitter:url"/>
+<meta content="Written by" name="twitter:label1"/>
+<meta content="Daniel Gordon" name="twitter:data1"/>
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Daniel Gordon",
+        "url": "https://danielgordon.me/",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://danielgordon.me/content/images/size/w256h256/2025/12/Yosemite_Sam.svg.png",
+            "width": 60,
+            "height": 60
+        }
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Daniel Gordon",
+        "url": "https://danielgordon.me/author/daniel/",
+        "sameAs": []
+    },
+    "headline": "Corn Jam Ice Cream",
+    "url": "https://danielgordon.me/corn-jam-ice-cream/",
+    "datePublished": "2026-02-09T06:11:44.000Z",
+    "dateModified": "2026-02-09T06:12:19.000Z",
+    "description": "This is by far my favorite ice cream I&#x27;ve ever made. When I was invited to a corn themed party (crazy) by my girlfriend, the decision was made for me that I was gonna recreate the sweet corn raspberry jam from this creamery in Cambridge.\n\n@honeycombcreamery\n\n1. I am not exaggerating when I say this is our most popular flavor 🫣 2. We&#x27;re making it until about mid-September! #itscorn #corn #sweetcorn #cornicecream #sweetcornicecream #roastedcorn #icecreamtok #bostontok #desserttok #icecreamlover #",
+    "mainEntityOfPage": "https://danielgordon.me/corn-jam-ice-cream/"
+}
+    </script>
+<meta content="Ghost 6.10" name="generator"/>
+<link href="https://danielgordon.me/blog/rss/" rel="alternate" title="Daniel Gordon" type="application/rss+xml"/>
+<script crossorigin="anonymous" data-key="8715045d35aeebbc9308da5b30" data-locale="en" data-sodo-search="https://danielgordon.me/" data-styles="https://cdn.jsdelivr.net/ghost/sodo-search@~1.8/umd/main.css" defer="" src="https://cdn.jsdelivr.net/ghost/sodo-search@~1.8/umd/sodo-search.min.js"></script>
+<link href="https://danielgordon.me/webmentions/receive/" rel="webmention"/>
+<script defer="" src="/public/cards.min.js?v=bb3163ef1a"></script><style>:root {--ghost-accent-color: #557257;}</style>
+<link href="/public/cards.min.css?v=bb3163ef1a" rel="stylesheet" type="text/css"/>
+<link href="https://fonts.bunny.net" rel="preconnect"/><link href="https://fonts.bunny.net/css?family=libre-baskerville:700|jetbrains-mono:400,700" rel="stylesheet"/><style>:root {--gh-font-heading: Libre Baskerville;--gh-font-body: JetBrains Mono;}</style>
+</head>
+<body class="post-template gh-font-heading-libre-baskerville gh-font-body-jetbrains-mono has-sans-title has-sans-body">
+<div class="gh-viewport">
+<header class="gh-navigation is-left-logo gh-outer" id="gh-navigation">
+<div class="gh-navigation-inner gh-inner">
+<div class="gh-navigation-brand">
+<a class="gh-navigation-logo is-title" href="https://danielgordon.me">
+                    Daniel Gordon
+            </a>
+<button aria-label="Menu" class="gh-burger gh-icon-button">
+<svg fill="currentColor" height="24" viewbox="0 0 256 256" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM40,72H216a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z"></path></svg> <svg fill="currentColor" height="24" viewbox="0 0 256 256" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M205.66,194.34a8,8,0,0,1-11.32,11.32L128,139.31,61.66,205.66a8,8,0,0,1-11.32-11.32L116.69,128,50.34,61.66A8,8,0,0,1,61.66,50.34L128,116.69l66.34-66.35a8,8,0,0,1,11.32,11.32L139.31,128Z"></path></svg> </button>
+</div>
+<nav class="gh-navigation-menu">
+<ul class="nav">
+<li class="nav-home"><a href="https://danielgordon.me/">Home</a></li>
+<li class="nav-resume"><a href="https://danielgordon.me/resume/">Resume</a></li>
+<li class="nav-academic-projects"><a href="https://danielgordon.me/academic-projects/">Academic Projects</a></li>
+<li class="nav-personal-projects"><a href="https://danielgordon.me/personal-projects/">Personal Projects</a></li>
+<li class="nav-blog"><a href="https://danielgordon.me/blog/">Blog</a></li>
+</ul>
+</nav>
+<div class="gh-navigation-actions">
+</div>
+</div>
+</header>
+<main class="gh-main">
+<article class="gh-article post no-image">
+<header class="gh-article-header gh-canvas">
+<h1 class="gh-article-title is-title">Corn Jam Ice Cream</h1>
+</header>
+<section class="gh-content gh-canvas is-body">
+<p>This is by far my favorite ice cream I've ever made. When I was invited to a corn themed party (crazy) by my girlfriend, the decision was made for me that I was gonna recreate the sweet corn raspberry jam from this creamery in Cambridge.</p><figure class="kg-card kg-embed-card"><blockquote cite="https://www.tiktok.com/@honeycombcreamery/video/7398250243671870766" class="tiktok-embed" data-embed-from="oembed" data-video-id="7398250243671870766" style="max-width:605px; min-width:325px;"> <section> <a href="https://www.tiktok.com/@honeycombcreamery?refer=embed" target="_blank" title="@honeycombcreamery">@honeycombcreamery</a> <p>1. I am not exaggerating when I say this is our most popular flavor 🫣 2. We're making it until about mid-September! <a href="https://www.tiktok.com/tag/itscorn?refer=embed" target="_blank" title="itscorn">#itscorn</a> <a href="https://www.tiktok.com/tag/corn?refer=embed" target="_blank" title="corn">#corn</a> <a href="https://www.tiktok.com/tag/sweetcorn?refer=embed" target="_blank" title="sweetcorn">#sweetcorn</a> <a href="https://www.tiktok.com/tag/cornicecream?refer=embed" target="_blank" title="cornicecream">#cornicecream</a> <a href="https://www.tiktok.com/tag/sweetcornicecream?refer=embed" target="_blank" title="sweetcornicecream">#sweetcornicecream</a> <a href="https://www.tiktok.com/tag/roastedcorn?refer=embed" target="_blank" title="roastedcorn">#roastedcorn</a> <a href="https://www.tiktok.com/tag/icecreamtok?refer=embed" target="_blank" title="icecreamtok">#icecreamtok</a> <a href="https://www.tiktok.com/tag/bostontok?refer=embed" target="_blank" title="bostontok">#bostontok</a> <a href="https://www.tiktok.com/tag/desserttok?refer=embed" target="_blank" title="desserttok">#desserttok</a> <a href="https://www.tiktok.com/tag/icecreamlover?refer=embed" target="_blank" title="icecreamlover">#icecreamlover</a> <a href="https://www.tiktok.com/tag/icecreamlovers?refer=embed" target="_blank" title="icecreamlovers">#icecreamlovers</a> <a href="https://www.tiktok.com/tag/homemadejam?refer=embed" target="_blank" title="homemadejam">#homemadejam</a> <a href="https://www.tiktok.com/tag/localfruit?refer=embed" target="_blank" title="localfruit">#localfruit</a> <a href="https://www.tiktok.com/tag/localproduce?refer=embed" target="_blank" title="localproduce">#localproduce</a> <a href="https://www.tiktok.com/tag/smallbatchicecream?refer=embed" target="_blank" title="smallbatchicecream">#smallbatchicecream</a> <a href="https://www.tiktok.com/tag/icecream?refer=embed" target="_blank" title="icecream">#icecream</a> <a href="https://www.tiktok.com/tag/iscreamforicecream?refer=embed" target="_blank" title="iscreamforicecream">#iscreamforicecream</a> <a href="https://www.tiktok.com/tag/treatyoself?refer=embed" target="_blank" title="treatyoself">#treatyoself</a> <a href="https://www.tiktok.com/tag/icecreamcone?refer=embed" target="_blank" title="icecreamcone">#icecreamcone</a> <a href="https://www.tiktok.com/tag/wafflecone?refer=embed" target="_blank" title="wafflecone">#wafflecone</a> <a href="https://www.tiktok.com/tag/unique?refer=embed" target="_blank" title="unique">#unique</a> <a href="https://www.tiktok.com/tag/oddlysatisfying?refer=embed" target="_blank" title="oddlysatisfying">#oddlysatisfying</a> <a href="https://www.tiktok.com/tag/bostonfood?refer=embed" target="_blank" title="bostonfood">#bostonfood</a> <a href="https://www.tiktok.com/tag/bostonlocal?refer=embed" target="_blank" title="bostonlocal">#bostonlocal</a> <a href="https://www.tiktok.com/tag/boston?refer=embed" target="_blank" title="boston">#boston</a> <a href="https://www.tiktok.com/tag/bostonfoodies?refer=embed" target="_blank" title="bostonfoodies">#bostonfoodies</a> <a href="https://www.tiktok.com/tag/camberville?refer=embed" target="_blank" title="camberville">#camberville</a> <a href="https://www.tiktok.com/tag/cambridgema?refer=embed" target="_blank" title="cambridgema">#cambridgema</a> <a href="https://www.tiktok.com/tag/cambridgemass?refer=embed" target="_blank" title="cambridgemass">#cambridgemass</a> <a href="https://www.tiktok.com/tag/cambridgemassachusetts?refer=embed" target="_blank" title="cambridgemassachusetts">#cambridgemassachusetts</a> </p> <a href="https://www.tiktok.com/music/Vlog---Stylish-city-pop-1275391-7200478944389564418?refer=embed" target="_blank" title="♬ Vlog ・ Stylish city pop(1275391) - orino">♬ Vlog ・ Stylish city pop(1275391) - orino</a> </section> </blockquote> <script async="" src="https://www.tiktok.com/embed.js"></script></figure><p>The ice cream really surprised me. I cannot write a real recipe to this for obligatory reasons, but you'll figure it out if you make it.</p><p>I modified this recipe for Philadelphia style ice cream base, but I had to remove some of the sugar since we were adding brown sugar roasted kernels.</p><figure class="kg-card kg-bookmark-card"><a class="kg-bookmark-container" href="https://www.thekitchn.com/how-to-make-ice-cream-without-eggs-171619"><div class="kg-bookmark-content"><div class="kg-bookmark-title">How To Make Ice Cream Without Eggs</div><div class="kg-bookmark-description">When you make vanilla ice cream at home, with good milk and cream, and real vanilla bean, it’s anything but plain!</div><div class="kg-bookmark-metadata"><picture><img alt="" class="kg-bookmark-icon" loading="lazy" src="https://danielgordon.me/content/images/icon/safari-pin-icon-1.svg"/></picture><span class="kg-bookmark-author">The Kitchn</span><span class="kg-bookmark-publisher">The Kitchn</span></div></div><div class="kg-bookmark-thumbnail"><picture><img alt="" loading="lazy" onerror="this.style.display = 'none'" src="https://danielgordon.me/content/images/thumbnail/https-3A-2F-2Fstorage.googleapis.com-2Fgen-atmedia-2F3-2F2012-2F05-2Faea9988c6058fec27de011fa881c37b3e14bcff0-1.jpeg"/></picture></div></a></figure><p>...also maybe some of the salt but I added more salt in during churning so none of this really matters I can't even look at the news anymore without crying.</p><p>Since I couldn't find raspberry jam at Stoppy's, I took some strawberry jam and added lemon juice to make it tart. ZOMG this was so delicious. I would recommended making it pretty tart and making sure it's well distributed in the ice cream. Also go pretty liberal with it. Yeah it's that good.</p><p>I blended the base to incorporate the corn, and after I just eyeballed the correct amount of liquids to add. While that cooled I played catfishing:</p><p><a href="https://www.catfishing.net/" rel="noreferrer">catfishing.net</a><br/>538 - 6/10<br/>🐟🐟🐈🐈🐈<br/>🐟🐟🐈🐈🐈</p><p>During the churning, Aerin recommended I stir in some whole kernels that I had left over. This was a great idea since it some a nice textural contrast. I then whipped in some of the jam right at the end.</p><figure class="kg-card kg-image-card"><picture><source sizes="(min-width: 720px) 720px" srcset="https://danielgordon.me/content/images/size/w600/2026/02/IMG_3111.avif 600w, https://danielgordon.me/content/images/size/w1000/2026/02/IMG_3111.avif 1000w, https://danielgordon.me/content/images/size/w1600/2026/02/IMG_3111.avif 1600w, https://danielgordon.me/content/images/2026/02/IMG_3111.avif 1975w" type="image/avif"/><source sizes="(min-width: 720px) 720px" srcset="https://danielgordon.me/content/images/size/w600/2026/02/IMG_3111.webp 600w, https://danielgordon.me/content/images/size/w1000/2026/02/IMG_3111.webp 1000w, https://danielgordon.me/content/images/size/w1600/2026/02/IMG_3111.webp 1600w, https://danielgordon.me/content/images/2026/02/IMG_3111.webp 1975w" type="image/webp"/><img alt="" class="kg-image" height="1994" loading="lazy" sizes="(min-width: 720px) 720px" src="https://danielgordon.me/content/images/2026/02/IMG_3111.jpg" srcset="https://danielgordon.me/content/images/size/w600/2026/02/IMG_3111.jpg 600w, https://danielgordon.me/content/images/size/w1000/2026/02/IMG_3111.jpg 1000w, https://danielgordon.me/content/images/size/w1600/2026/02/IMG_3111.jpg 1600w, https://danielgordon.me/content/images/2026/02/IMG_3111.jpg 1975w" width="1975"/></picture></figure><p>This was a big hit at the corn party and everyone loved me I made so many friends and shared so many laughs.</p><p>Also I wrote this blog post in like 20 minutes and just realized I downed an entire pint of Häagen-Dazs within that time.</p><p>My next goal is to perfect my honey mustard ice cream recipe.</p>
+</section>
+</article>
+</main>
+<section class="gh-container is-grid gh-outer">
+<div class="gh-container-inner gh-inner">
+<h2 class="gh-container-title">Read more</h2>
+<div class="gh-feed">
+<article class="gh-card post no-image no-image">
+<a class="gh-card-link" href="/cheese-club-posters/">
+<div class="gh-card-wrapper">
+<h3 class="gh-card-title is-title">Cheese Club Posters</h3>
+<p class="gh-card-excerpt is-body">These were designed to be as silly as possible to reflect the tone of the club. I wanted the club's promotional material to be as different as possible from other student orgs I was seeing on campus, and part of this included being driven by visuals and imagery.</p>
+<footer class="gh-card-meta">
+<!--
+--><!--
+--></footer>
+</div>
+</a>
+</article>
+<article class="gh-card post no-image no-image">
+<a class="gh-card-link" href="/wikipedia/">
+<div class="gh-card-wrapper">
+<h3 class="gh-card-title is-title">DWI (Daniel Wikipedia Index)</h3>
+<p class="gh-card-excerpt is-body">Some of my favorite Wikipedia articles.
+
+
+
+
+Lists &amp; Glossaries
+
+Glossary of coal mining terminology - WikipediaWikimedia Foundation, Inc.Contributors to Wikimedia projectsGlossary of French words and expressions in English - WikipediaWikimedia Foundation, Inc.Contributors to Wikimedia projectsAmusement rides on the National Register of Historic Places - WikipediaWikimedia Foundation, Inc.Contributors</p>
+<footer class="gh-card-meta">
+<!--
+--><!--
+--></footer>
+</div>
+</a>
+</article>
+<article class="gh-card post featured no-image no-image">
+<a class="gh-card-link" href="/james-bond/">
+<div class="gh-card-wrapper">
+<h3 class="gh-card-title is-title">James Bond</h3>
+<p class="gh-card-excerpt is-body">He's so cool :D
+
+Just so awesome...
+
+How lucky are we.</p>
+<footer class="gh-card-meta">
+<!--
+--><!--
+--></footer>
+</div>
+</a>
+</article>
+<article class="gh-card post featured no-image no-image">
+<a class="gh-card-link" href="/animals/">
+<div class="gh-card-wrapper">
+<h3 class="gh-card-title is-title">Animals</h3>
+<p class="gh-card-excerpt is-body">A collection of animal pictures I've curated over the years.</p>
+<footer class="gh-card-meta">
+<!--
+--><!--
+--></footer>
+</div>
+</a>
+</article>
+</div>
+</div>
+</section>
+<footer class="gh-footer gh-outer">
+<div class="gh-footer-inner gh-inner">
+<div class="gh-footer-bar">
+<span class="gh-footer-logo is-title">
+                    Daniel Gordon
+            </span>
+<nav class="gh-footer-menu">
+</nav>
+<div class="gh-footer-copyright">
+                Powered by <a href="https://ghost.org/" rel="noopener" target="_blank">Ghost</a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+<div class="pswp__bg"></div>
+<div class="pswp__scroll-wrap">
+<div class="pswp__container">
+<div class="pswp__item"></div>
+<div class="pswp__item"></div>
+<div class="pswp__item"></div>
+</div>
+<div class="pswp__ui pswp__ui--hidden">
+<div class="pswp__top-bar">
+<div class="pswp__counter"></div>
+<button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+<button class="pswp__button pswp__button--share" title="Share"></button>
+<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+<div class="pswp__preloader">
+<div class="pswp__preloader__icn">
+<div class="pswp__preloader__cut">
+<div class="pswp__preloader__donut"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+<div class="pswp__share-tooltip"></div>
+</div>
+<button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+<div class="pswp__caption">
+<div class="pswp__caption__center"></div>
+</div>
+</div>
+</div>
+</div>
+<script src="/assets/built/source.js?v=bb3163ef1a"></script>
+</body>
+</html>
