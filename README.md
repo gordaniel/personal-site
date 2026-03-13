@@ -1,5 +1,5 @@
 # personal-site
-Daniel Gordon's personal website
+My personal website. Uses Ghost CMS.
 
 
 # Guide:
